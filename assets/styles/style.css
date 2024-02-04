@@ -1,0 +1,100 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(59, 121, 214);
+}
+
+h1{
+    color: rgb(40, 101, 192);
+    text-align: center;
+    background: #fff;
+    font-family: sans-serif;
+    font-size: 45px;
+    font-weight: 100;
+    padding: 10px;
+    margin: 0 auto;
+    width: fit-content;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container{
+    background: rgb(235, 234, 234);
+    width: 500px;
+    margin: 30px auto;
+    border-radius: 5px;
+}
+
+.container h2{
+    background: #fff;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    color: rgb(17, 16, 102);
+    border-bottom: 3px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.container .inputs{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin: 50px 0;
+}
+
+.container .inputs div{
+    width: 27%;
+}
+
+.container .inputs div input{
+    width: 100%;
+    padding: 15px 20px 15px 15px;
+    border: 2px solid rgb(59, 121, 214);
+    outline: none;
+    border-radius: 2px;
+    color: rgb(59, 121, 214);
+    font-size: 20px;
+}
+
+
+.container label{
+    color: rgb(40, 101, 192);
+    font-size: 20px;
+    font-weight: 100;
+    font-family: sans-serif;
+    display: block;
+    margin: 10px 0;
+}
+.container button{
+    width: 150px;
+    margin: 20px auto;
+    display: block;
+    padding: 15px;
+    background: rgb(33, 82, 156);
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.container h3{
+    padding: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    color: rgb(17, 16, 102);
+}

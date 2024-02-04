@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+<body>
+
+    <h1>Simple Javascript Age Calculator</h1>
+
+    <div class="container">
+        <h2>Age Calculator</h2>
+
+        <div class="inputs">
+            <div>
+                <label>Date</label>
+                <input class="input1" type="text">
+            </div>
+            
+            <div>
+                <label>Month</label>
+                <input class="input2" type="text">
+            </div>
+            
+            <div>
+                <label>Year</label>
+                <input class="input3" type="text">
+            </div>
+        </div>
+        
+        <button onclick="calculateAge()">Submit</button>
+        <h3>Output</h3>
+    </div>
+    
+<script>
+
+    function calculateAge() {
+
+        var date = document.querySelector('.input1').value
+        var month = document.querySelector('.input2').value
+        var year = document.querySelector('.input3').value
+
+        var age = 2024 - year
+        var months = parseFloat(month) - 2
+        var days = parseFloat(date) - 4
+        document.querySelector('h3').innerHTML = "Your Age is " + age + " Years " + months + " Months " + days + " Days"
+
+    }
+
+</script>
+
+</body>
+</html>

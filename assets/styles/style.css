@@ -26,6 +26,8 @@ h1{
     width: 500px;
     margin: 30px auto;
     border-radius: 5px;
+    transition: 1s;
+    transform: scale(0);
 }
 
 .container h2{

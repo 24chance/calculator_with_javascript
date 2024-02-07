@@ -23,7 +23,7 @@ h1{
 
 .container{
     background: rgb(235, 234, 234);
-    width: 500px;
+    max-width: 500px;
     margin: 30px auto;
     border-radius: 5px;
     transition: 1s;
